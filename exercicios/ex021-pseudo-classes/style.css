@@ -1,0 +1,14 @@
+
+div {   
+     display: inline-block; /* TUDO JUNTO EM FORMA DE LINHA*/
+    background-color: lightgray;
+    border: 1px solid black;
+    text-align: center;
+    height: 150px;
+    width: 200px; 
+    
+}
+
+div:hover {
+    background-color: yellow;
+}

@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap');
+
+/* PARA USAR QUALQUER UM DOS ESTILOS INDIVIDUALMENTE É SÓ MUDAR O VALOR DO FONT-WEIGHT */
+
+
+
+
+
+body {
+    font:  16px arial;
+}
+
+h1{
+  font-family: roboto slab ;
+  font-size: 3em;
+  font-weight: 900;
+
+}
+
+p {
+    font-family: roboto slab;
+    font-weight: 600;
+}   
+
+h2 {
+    font-family: roboto slab ;
+    font-weight: 900;
+}

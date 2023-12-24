@@ -1,0 +1,56 @@
+body {
+    font-family: serif;
+    font-size: 1em;
+    font-weight: normal;
+    font-style: italic;
+    text-decoration: underline;
+   
+}
+
+h1 {
+    font-family: 'work sans',serif;
+    font-weight: normal;
+    font-size: 2em;
+    font-style: italic;
+    /* shorthand font
+    - font style -> font weight -> font size -> font family */
+    font: italic bold 2em serif;
+}
+
+h2 {
+    font:  italic bold 2em serif;
+}
+
+
+
+
+
+
+
+
+
+#ct {
+    text-align: center;
+}
+
+#butao {
+    text-align: center;
+    
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: fantasy;
+}
+
+.menu {
+    list-style: none ;
+    display: flex;
+    gap: 25px;
+    font-family: fantasy;
+}
+a {
+    color: black;
+}

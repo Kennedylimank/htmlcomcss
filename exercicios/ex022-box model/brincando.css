@@ -1,0 +1,49 @@
+.divpai {
+    background-color: black;
+    color: pink;
+    width: 150px;
+    height: 150px;
+    box-shadow: 5px 5px 6px 4px rgba(0, 0, 0, 0.309);
+    border-radius: 10px;
+    
+    
+
+    
+    
+}
+.divfilho {
+    background-color: red;
+    color: green;
+    height: 27px;
+    text-align: center;
+    padding: 6px 0px 0px 0px;
+}
+
+span {
+    display: inline-block;
+    margin: 08px auto;
+    width: 75px;
+    height: 75px;
+    background-color: saddlebrown;
+
+    
+}
+
+.spanzinho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+} 
+
+.spanhehe {
+    display: inline-block;
+    width: 35px;
+    height: 20px;
+    margin: 0;
+    margin-left: 57.5px;
+    text-align: center;
+    
+    
+    
+}

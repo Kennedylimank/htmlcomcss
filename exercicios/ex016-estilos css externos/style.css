@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(0, 0, 0);
+    font-size: 1.0em;
+    font-family: fantasy;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: burlywood;
+    
+    
+}
+
+h2 {
+    color: floralwhite;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+p {
+    text-align: justify;
+    color: white;
+}
+
+a {
+    
+}

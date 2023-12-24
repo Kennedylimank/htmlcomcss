@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+a {
+    color: rgb(206, 21, 21);
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgba(218, 70, 70, 0.574);
+}
+
+a:active {
+    color: rgba(255, 169, 169, 0.35)
+ 
+ }
+
+ .especial {
+    
+    color: rgb(206, 21, 21);
+    
+   
+ }
+
+ .especial:hover {
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 0.574);
+    background-color: rgba(250, 46, 46, 0.319);
+    border-radius: 9px;
+    font-family: fantasy;
+   
+ }
+
+ .especial::before {
+    content: " ☛ " ;
+    color: rgba(255, 0, 0, 0.251)
+ }
+
+ .especial::after {
+    content: " ☚  ";
+    color: rgba(255, 0, 0, 0.251)
+ }

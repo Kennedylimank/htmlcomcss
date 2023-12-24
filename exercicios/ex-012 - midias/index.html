@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+    <h1>Reproduzindo áudio</h1>
+    <p>Vamos aprender a reproduzir áudio em HTML5</p>
+   <ol type="1">
+       
+        <li>
+            <audio src="mídia/jigsaw_puzzle.mp3" controls></audio>
+        </li>
+            <br> <!--essa tag é compatível com audios MP3/WAV/OGG-->
+        <li>
+            <audio src="mídia/guanacast-33.mp3" controls autoplay></audio>
+        </li>
+   </ol>
+
+   <h1>reproduzindo o áudio de outra maneira. PARA GANHAR MAIS COMPATIBILIDADE</h1>
+   <p>compatibilidade</p>
+    <audio preload="metadata" >
+
+        <source src="mídia/jigsaw_puzzle.mp3" type="mpeg">  
+        <source src="mídia/jigsaw_puzzle.ogg" type="ogg">
+        <source src="mídia/jigsaw_puzzle.wav" type="wav">
+        <p>infelizmente seu navegador não consegue reproduzir áudio <a href="mídia/jigsaw_puzzle.mp3">clique aqui e baixe</a></p>
+
+    </audio> <!--SAPORRA NAO DEU CERTO(UMA GAROTA DO DO GUANABARA DISSE QUE O GOOGLE BLOQUEOU O "AUTOPLAY 😁")-->
+     <audio src="mídia/jigsaw_puzzle.mp3" autoplay controls></audio>
+     <audio src="mídia/jigsaw_puzzle.mp3" controls></audio>
+
+   
+   
