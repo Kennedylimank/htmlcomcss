@@ -6,12 +6,40 @@
     <title>Mídias em HTML5</title>
 </head>
 <body>
+    <style> 
+    body {
+        margin: 0;
+    }
+    img {
+    
+    display: flex;
+    justify-content: right;
+    align-items: start;
+    width: 100%;
+    height: 300px;
+    top: 200px;
+    margin: auto;
+ 
+    }
+
+    picture {      
+       
+    display: flex;
+    justify-content: right;
+    align-items: start;
+    
+    }
+
+    audio {
+        width: 200px;
+        
+    }
+
+    </style>
     <h1>Imagem dinâmica</h1>
     <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
     <picture>
-        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
-        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
-        <img src="imagens/foto-g.png" alt="Imagem flexível">
+      <img src="https://images.pexels.com/photos/573238/pexels-photo-573238.jpeg" alt="">  
     </picture>
     <h1>Reproduzindo áudio</h1>
     <p>Vamos aprender a reproduzir áudio em HTML5</p>
