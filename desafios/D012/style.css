@@ -1,0 +1,120 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sriracha&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+ 
+* {
+    margin: 0;
+}
+
+html, body {
+    min-height: 100vh;
+}
+header {
+  max-height: 300px;
+  background-color: black;
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+header > h1 {
+    font-family: 'Passion One';
+    font-weight: normal;
+    font-size: 10vw;
+    color: white;
+    padding-top: 20px;  
+}
+
+span {
+    font-size: 11vw;
+}
+
+header > p {
+    color: white;
+    font-size: 1.5em;
+    padding: 0;
+    line-height: 60px;
+
+}
+
+p {
+    font-family: 'Sriracha';
+    padding: 55px 0px 55px 30px;
+    line-height:20px;
+    font-weight: normal;
+    font-size: 3vw;
+    line-height: 7vw;
+    
+}
+
+.container1 {
+height: 100%;
+padding: 30px ;
+
+background-image: url(imagens/background001.jpg);
+background-size: cover;
+background-position: right center;
+background-attachment: fixed;
+background-repeat: repeat-y;
+display: flex;
+align-items: center;
+justify-content: start;
+box-shadow: inset 1px 3px 15px 0px rgba(0, 0, 0, 0.781);
+
+}
+
+.container1 > p{
+    height: 80%;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.265);
+    padding: 10px;
+    color: white;
+    font-size: 3.5vw;
+    
+}
+
+.container2 {
+    height: 100%;
+    padding: 30px ;
+    background-image: url(imagens/background002.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: repeat-y;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    box-shadow: inset 1px 3px 15px 0px rgba(0, 0, 0, 0.514);
+    }
+    .container2 > p{
+        height: 80%;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.265);
+    padding: 10px;
+    color: white;
+    font-size: 3.5vw; 
+
+    }
+
+    footer {
+        max-height: 50px;
+        background-color: black;
+        text-align: center;
+        color: white;
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+    }
+
+
+    
+    
+
+
+
