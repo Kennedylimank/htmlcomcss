@@ -70,7 +70,7 @@ box-shadow: inset 1px 3px 15px 0px rgba(0, 0, 0, 0.781);
 }
 
 .container1 > p{
-    height: 80%;
+    
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.265);
     padding: 10px;
@@ -93,7 +93,7 @@ box-shadow: inset 1px 3px 15px 0px rgba(0, 0, 0, 0.781);
     box-shadow: inset 1px 3px 15px 0px rgba(0, 0, 0, 0.514);
     }
     .container2 > p{
-        height: 80%;
+        
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.265);
     padding: 10px;
